@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  height: 90vh;
+  overflow-x: scroll;
+}
+.div_1,
+.div_2,
+.div_3 {
+  border: 1px solid black;
+}
+.div_1 {
+  min-width: 200px;
+}
+.div_2 {
+  flex-grow: 1;
+  min-width: 100px;
+}
+.div_3 {
+   min-width: 300px;
+}
+p {
+  margin: 0;
+}
